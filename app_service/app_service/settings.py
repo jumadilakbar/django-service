@@ -79,10 +79,10 @@ DATABASES = {
     'default': {
         # MySQL engine. Powered by the mysqlclient module.
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'app_service',
+        'NAME': 'app_service2',
         'USER': 'root',
         'PASSWORD': '',
-        'HOST': 'localhost',
+        'HOST': '127.0.0.1',
         'PORT': '3306',
     }
 }
