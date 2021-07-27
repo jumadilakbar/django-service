@@ -29,6 +29,7 @@ python manage.py runserver
 ```
 ## Endpoint
 `POST : http://127.0.0.1:8000/todos/`  => Insert new data
+
 `body:`
 ```json
 {
@@ -37,6 +38,7 @@ python manage.py runserver
 ```
 
 `GET : http://127.0.0.1:8000/todos/`  => GET all data todo
+
 `output:`
 ```json
 [
@@ -52,6 +54,7 @@ python manage.py runserver
 ```
 
 `PUT : http://127.0.0.1:8000/todos/$todo_id`  => Update data on todo
+
 `body:`
 ```json
 {
@@ -60,6 +63,7 @@ python manage.py runserver
 ```
 
 `DELETE : http://127.0.0.1:8000/todos/$todo_id`  => Delete data on todo by id
+
 `output:`
 ```json
 {
