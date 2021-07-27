@@ -1,4 +1,4 @@
-# Build a REST API with Django Rest Framework and MySQL
+# REST API with Django Rest Framework and MySQL
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 ## Installation
